@@ -65,7 +65,7 @@ const StudentPage = () => {
         <div className ="border rounded-lg p-4">
           <h3 className ="font-semibold text-lg mb-2">Thông tin sinh viên</h3>
           <p>Mã sinh viên: 2213060079</p>
-          <p>Họ và tên: Phan Trọng Ân</p>
+          <p>Họ và tên: Lê Quốc Huy</p>
           <p>Giới tính: Nam</p>
           <p>Ngày sinh: 04/05/2004</p>
           <p>Nơi sinh: Thành phố Hồ Chí Minh</p>

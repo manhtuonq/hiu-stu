@@ -31,10 +31,10 @@ const Info = () => {
               </button>
               {/* Thêm className để toggle ẩn/hiện menu */}
               <div className={`absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-10 ${isMenuOpen ? '' : 'hidden'}`}>
-                <a href="student.html" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Trang học sinh</a>
-                <a href="study.html" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Tiến trình</a>
-                <a href="monney.html" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Phí học</a>
-                <a href="info.html" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Thông tin</a>
+                <a href="/student" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Trang học sinh</a>
+                <a href="/study" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Tiến trình</a>
+                <a href="/monney" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Phí học</a>
+                <a href="/info" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Thông tin</a>
               </div>
             </div>
           </div>
